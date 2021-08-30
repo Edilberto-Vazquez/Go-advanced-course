@@ -1,30 +1,47 @@
-package lessons
+// package lessons
 
-import "fmt"
+// import "fmt"
 
-type PersonIn struct {
-	name string
-	age  int
-}
+// type PrintInfo interface {
+// 	getMessage() string
+// }
 
-type EmployeeIn struct {
-	id int
-}
+// type PersonIn struct {
+// 	name string
+// 	age  int
+// }
 
-type FullTimeEmployee struct {
-	PersonIn
-	EmployeeIn
-}
+// type EmployeeIn struct {
+// 	id int
+// }
 
-func GetMessage(p PersonIn) {
-	fmt.Printf("%s With age %d\n", p.name, p.age)
-}
+// type FullTimeEmployee struct {
+// 	PersonIn
+// 	EmployeeIn
+// 	endDate string
+// }
 
-func Inheritance() {
-	ftEmployee := FullTimeEmployee{}
-	ftEmployee.name = "Name"
-	ftEmployee.age = 2
-	ftEmployee.id = 16549
+// func (ftEmployee FullTimeEmployee) getMessage() string {
+// 	return "Full Time Employee"
+// }
 
-	fmt.Printf("%v", ftEmployee)
-}
+// type TemporaryEmployee struct {
+// 	PersonIn
+// 	Employee
+// 	textRate int
+// }
+
+// func getMessage(p PrintInfo) {
+// 	fmt.Println(p.getMessage())
+// }
+
+// func Inheritance() {
+// 	// ftEmployee := FullTimeEmployee{}
+// 	// ftEmployee.name = "Name"
+// 	// ftEmployee.age = 2
+// 	// ftEmployee.id = 16549
+// 	// fmt.Printf("%v\n", ftEmployee)
+// 	// tEmployee := TemporaryEmployee{}
+// 	// getMessage(tEmployee)
+// 	// getMessage(ftEmployee)
+// }
