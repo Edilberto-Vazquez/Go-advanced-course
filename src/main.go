@@ -8,6 +8,10 @@ func main() {
 	// repaso
 	// repaso.Repaso()
 
-	// structs vs class
-	lessons.MakeObject()
+	// ----------OOP----------
+	// structs vs class and methods
+	// lessons.MakeObject()
+
+	// constructor
+	lessons.Constructor()
 }
