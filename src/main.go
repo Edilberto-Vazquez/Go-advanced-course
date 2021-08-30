@@ -13,5 +13,8 @@ func main() {
 	// lessons.MakeObject()
 
 	// constructor
-	lessons.Constructor()
+	// lessons.Constructor()
+
+	// inheritance vs composition
+	lessons.Inheritance()
 }
