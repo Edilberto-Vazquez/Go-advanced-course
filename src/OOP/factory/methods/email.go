@@ -1,8 +1,8 @@
 package methods
 
 import (
-	inf "Go-advanced-course/src/factory/iNotificationFactory"
-	send "Go-advanced-course/src/factory/iSender"
+	inf "Go-advanced-course/src/OOP/factory/iNotificationFactory"
+	send "Go-advanced-course/src/OOP/factory/iSender"
 	"fmt"
 )
 

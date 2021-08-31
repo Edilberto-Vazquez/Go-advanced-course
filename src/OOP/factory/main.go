@@ -1,8 +1,8 @@
 package main
 
 import (
-	inf "Go-advanced-course/src/factory/iNotificationFactory"
-	"Go-advanced-course/src/factory/methods"
+	inf "Go-advanced-course/src/OOP/factory/iNotificationFactory"
+	"Go-advanced-course/src/OOP/factory/methods"
 	"fmt"
 )
 

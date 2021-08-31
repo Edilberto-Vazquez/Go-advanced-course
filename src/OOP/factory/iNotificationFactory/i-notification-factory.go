@@ -1,7 +1,7 @@
 package iNotificationFactory
 
 import (
-	sender "Go-advanced-course/src/factory/iSender"
+	sender "Go-advanced-course/src/OOP/factory/iSender"
 )
 
 type INotificationFactory interface {
