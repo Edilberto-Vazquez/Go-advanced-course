@@ -25,11 +25,11 @@ func Print(c <-chan int) {
 	}
 }
 
-func main() {
-	generator := make(chan int)
-	double := make(chan int)
+// func main() {
+// 	generator := make(chan int)
+// 	double := make(chan int)
 
-	go Generator(generator)
-	go Double(generator, double)
-	Print(double)
-}
+// 	go Generator(generator)
+// 	go Double(generator, double)
+// 	Print(double)
+// }
